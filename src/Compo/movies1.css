@@ -74,9 +74,9 @@ body{
         display: block;
         margin-left: 40px;
     } 
-    #text{
+    /* #text{
          margin-top: -50px;
-     }  
+     }   */
      .starr{
         width: 450px;
         margin-left: 30px;
@@ -87,13 +87,64 @@ body{
         border-radius: 50%;
         padding: 10px;
     } 
-    .moviename{
+    /* .moviename{
         right: 40%;
         top: 75%;  
+        font-size: 30px;
+        padding: 5px;
+    } */
+
+}
+
+ @media only screen and (max-width:700px){
+    #text{
+        margin-top: 120px;
+    } 
+    .moviename{
+        right: 30%;
+        top: 50%;  
+        font-size: 30px;
+        padding: 5px;
+    }
+
+} 
+
+@media only screen and (max-width:580px){
+    #text{
+        margin-top: -50px;
+    } 
+    .moviename{
+        right: 30%;
+        top: 58%;  
         font-size: 30px;
         padding: 5px;
     }
 
 }
+@media only screen and (max-width: 480px){
+    #text{
+        margin-top: -50px;
+    } 
+    .moviename{
+        right: 30%;
+        top: 58%;  
+        font-size: 30px;
+        padding: 5px;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    #text{
+        margin-top: -50px;
+    } 
+    .moviename{
+        right: 10%;
+        top: 54%;  
+        font-size: 30px;
+        padding: 5px;
+    }
+
+}
+
   
   
