@@ -1,0 +1,19 @@
+body{
+  background-color: aqua;
+}
+
+.containor{
+  border: 5px solid black;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  border-radius: 10px;
+}
+.inpu{
+  margin: 10px;
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+}

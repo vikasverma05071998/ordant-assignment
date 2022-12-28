@@ -1,0 +1,99 @@
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.detailcard{
+ display: flex; 
+ justify-content: space-around;  
+ flex-wrap: wrap;
+}
+.ratsection{
+    display: flex;
+    justify-content: center;
+    
+}
+.number{
+    font-size: 45px;
+}
+#ratings{
+    width: 100%;
+    margin-bottom: 130px;   
+}
+
+.blendimage{
+    border-radius: 10px;
+    transition: transform 2s; 
+}
+
+.blendimage:hover{
+    transform: scale(1.1);
+}
+
+.moviename{
+    position: absolute;
+    right: 20%;
+    top: 30%;  
+    font-size: 40px; 
+}
+#text{
+    gap: 10px; 
+    padding: 10px;
+    margin: 10px;
+ }  
+
+ .crew{
+    text-align: center;
+ }
+ 
+  .table{
+    
+    margin-left: 500px;
+} 
+ .inner{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid red;
+} 
+ .stars{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+   
+} 
+ .fonts{
+    padding:30px; 
+    font-size: 20px;
+} 
+
+
+@media only screen and (max-width: 750px) {
+    
+    .crew>table{
+        display: block;
+        margin-left: 40px;
+    } 
+    #text{
+         margin-top: -50px;
+     }  
+     .starr{
+        width: 450px;
+        margin-left: 30px;
+     }
+     .stars{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        padding: 10px;
+    } 
+    .moviename{
+        right: 40%;
+        top: 75%;  
+        font-size: 30px;
+        padding: 5px;
+    }
+
+}
+  
+  
